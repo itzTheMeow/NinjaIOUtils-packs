@@ -1,0 +1,215 @@
+{
+  "updated": "2026-10-21T04:46:35.574Z",
+  "packs": [
+    {
+      "id": "AllWhite",
+      "name": "All White",
+      "author": "Meow",
+      "description": "Makes all the textures white!",
+      "hasCombined": true,
+      "hasSeamless": true,
+      "hash": "21a418436a9b3c8209b4aad675692ae2a1d47e9fc3c928c3fa7a758561a5a726",
+      "zip": "packs/AllWhite.zip"
+    },
+    {
+      "id": "AnnasKiss",
+      "name": "Anna's Kiss",
+      "author": "Morgoth",
+      "description": "Come to mama!",
+      "hasCombined": true,
+      "hasSeamless": false,
+      "hash": "0714c9c47e0aa64ceb9f654a4271f56d76701ee867f711e96f1a66974b65015f",
+      "zip": "packs/AnnasKiss.zip"
+    },
+    {
+      "id": "Bloodlust",
+      "name": "Bloodlust",
+      "author": "Morgoth",
+      "description": "Washed in blood",
+      "hasCombined": true,
+      "hasSeamless": true,
+      "hash": "a2bd70899bdb52297c76190ad006c0fc5029ed2bc4673fd01f67bca0f0504f49",
+      "zip": "packs/Bloodlust.zip"
+    },
+    {
+      "id": "EliteVV1",
+      "name": "EliteVV1",
+      "author": "velo",
+      "description": "All throwables are red. Shotgun pellets are red. Muzzle flash is removed.",
+      "hasCombined": true,
+      "hasSeamless": false,
+      "hash": "7860319aab4a4b6d4ed00f64944aa6eee5f5b40922768dec96e94bcba2a4d1d7",
+      "zip": "packs/EliteVV1.zip"
+    },
+    {
+      "id": "FinalSunset",
+      "name": "Final Sunset",
+      "author": "[SC]Karma",
+      "description": "Gives a nice sunset based theme.",
+      "hasCombined": true,
+      "hasSeamless": false,
+      "hash": "0bf6dc0f2759d041af54dd29d9df412081dee3f1bfd12f8fd99a1421e78de6aa",
+      "zip": "packs/FinalSunset.zip"
+    },
+    {
+      "id": "greenpack",
+      "name": "Greenpack",
+      "author": "SuperNinjaMati",
+      "description": "added green weapons to the game",
+      "hasCombined": true,
+      "hasSeamless": false,
+      "hash": "3c8a37796ca28281d807afeebec1b66b1325393eceb9a2be5b3ae11ff795388b",
+      "zip": "packs/greenpack.zip"
+    },
+    {
+      "id": "Invisible",
+      "name": "Invisible",
+      "author": "Meow",
+      "description": "hey, where'd the game go?",
+      "hasCombined": true,
+      "hasSeamless": true,
+      "hash": "aff998efe96a27c4c400f68fcfb17adec7af8e12abf624e4cea41c65af34c117",
+      "zip": "packs/Invisible.zip"
+    },
+    {
+      "id": "JustARedPack",
+      "name": "Just a Red Pack",
+      "author": "Sauron",
+      "description": "Makes some guns red",
+      "hasCombined": true,
+      "hasSeamless": false,
+      "hash": "73b821ac32f85d6a414bb43f1410edfd18387cd35169f3a99cac8b3589334380",
+      "zip": "packs/JustARedPack.zip"
+    },
+    {
+      "id": "KarmasPinkTerror",
+      "name": "Karma's Pink Terror",
+      "author": "[SC]Karma",
+      "description": "This is [SC]Karma's pink terror texture pack. Pink is a deadly color!",
+      "hasCombined": true,
+      "hasSeamless": false,
+      "hash": "9ea34f8467599cb76a73b58e9a52fe8d762fb8b8e830c5a8adcf2edadc86b067",
+      "zip": "packs/KarmasPinkTerror.zip"
+    },
+    {
+      "id": "LemonsCustomPack",
+      "name": "lemon's custom pack",
+      "author": "lemonjuice",
+      "description": "changes weapons n stuff",
+      "hasCombined": true,
+      "hasSeamless": false,
+      "hash": "64848c76fc4f57c7f32a59cfc007d84f41527a19fa48359d42a056e26fe355f1",
+      "zip": "packs/LemonsCustomPack.zip"
+    },
+    {
+      "id": "PatiLove",
+      "name": "Love Pati",
+      "author": "Meow",
+      "description": "pati is love, pati is life.",
+      "hasCombined": true,
+      "hasSeamless": true,
+      "hash": "1f22532d3d9f08e322bd44d26eb82b9e36c291f0254377ec6ec565c080f83d6f",
+      "zip": "packs/PatiLove.zip"
+    },
+    {
+      "id": "Original",
+      "name": "Original",
+      "author": "Chefster",
+      "description": "Reverts back to the textures before the 0.3.2 version.",
+      "hasCombined": true,
+      "hasSeamless": false,
+      "hash": "58f4f268a7808e1ac669b7c689041b35fcc42b4ab0d12122fa7e82d0c3f17666",
+      "zip": "packs/Original.zip"
+    },
+    {
+      "id": "Plastic",
+      "name": "Plastic",
+      "author": "Meow",
+      "description": "Uses simple solid colors.",
+      "hasCombined": false,
+      "hasSeamless": true,
+      "hash": "8ec4fa6048889e93977355cecc7e0ae4a7024cadc709bf3f2e42d839ff063739",
+      "zip": "packs/Plastic.zip"
+    },
+    {
+      "id": "Scribble",
+      "name": "Scribble",
+      "author": "DarkMaster",
+      "description": "Oooo la la - scribbles",
+      "hasCombined": true,
+      "hasSeamless": false,
+      "hash": "36287da8792d9e37b6e1c3732711996de169e92bfb79f3d10c42a6cfff39500f",
+      "zip": "packs/Scribble.zip"
+    },
+    {
+      "id": "Shadefall",
+      "name": "Shadefall",
+      "author": "revi",
+      "description": "A texture pack for the shadefall project",
+      "hasCombined": true,
+      "hasSeamless": false,
+      "hash": "fbef12fe83e80b6687d8417cd6ef876de90fbdcdd9a4f5b2c32289f1248f3665",
+      "zip": "packs/Shadefall.zip"
+    },
+    {
+      "id": "Soldat",
+      "name": "Soldat",
+      "author": "Meow",
+      "description": "Uses Soldat textures from OpenSoldat.",
+      "hasCombined": true,
+      "hasSeamless": true,
+      "hash": "f7830322e59a1b3b57ff00d2758ae2a96d69997d8b2ba8bedafc29856b5476c7",
+      "zip": "packs/Soldat.zip"
+    },
+    {
+      "id": "StarWars",
+      "name": "Star Wars",
+      "author": "Barrel",
+      "description": "Changes the weaponry into cosmic guns!",
+      "hasCombined": true,
+      "hasSeamless": false,
+      "hash": "ba5890bda4816c93056db58f7c20a0a01ebe155a01965b5069edafab8109db68",
+      "zip": "packs/StarWars.zip"
+    },
+    {
+      "id": "cometBarrett",
+      "name": "Starry Comet Barrett",
+      "author": "Chefster",
+      "description": "Comet Tsuchinshan-ATLAS",
+      "hasCombined": true,
+      "hasSeamless": false,
+      "hash": "d3c88d29db72d3bb9f8c0276cb6caf6ffb8ca9a822785b5ef814a68c8f24e686",
+      "zip": "packs/cometBarrett.zip"
+    },
+    {
+      "id": "Terraria",
+      "name": "Terraria (WIP)",
+      "author": "lemonjuice.",
+      "description": "v0.3, bugs are definitely there and im working on it",
+      "hasCombined": true,
+      "hasSeamless": true,
+      "hash": "58237b5a5c76df4abd03d2d027ae1a8a04c845cdc4d7319717cae023b35f0a38",
+      "zip": "packs/Terraria.zip"
+    },
+    {
+      "id": "TransparentVignette",
+      "name": "Transparent Vignette",
+      "author": "Meow",
+      "description": "Makes the red vignette that shows up when you die more transparent.",
+      "hasCombined": true,
+      "hasSeamless": false,
+      "hash": "db05f710b064ca2274901ec92bed063bd039c473d96091e6bdcf9e0f1c19a993",
+      "zip": "packs/TransparentVignette.zip"
+    },
+    {
+      "id": "UnchainedRage",
+      "name": "Unchained Rage",
+      "author": "[SC]Karma",
+      "description": "Chains & Roses.",
+      "hasCombined": true,
+      "hasSeamless": true,
+      "hash": "c1fd66e3e4841db0e7b4f74a6acb66f64b66d3a2cd8263482244d63eb9b8e13a",
+      "zip": "packs/UnchainedRage.zip"
+    }
+  ]
+}

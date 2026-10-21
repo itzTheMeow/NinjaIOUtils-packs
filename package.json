@@ -1,0 +1,14 @@
+{
+  "name": "ninjaionutilspacks",
+  "version": "1.0.0",
+  "description": "Compiled texture packs/manifest for NinjaIOUtils.",
+  "main": "build.mjs",
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "author": "Meow",
+  "license": "ISC",
+  "dependencies": {
+    "adm-zip": "0.6.1"
+  }
+}
