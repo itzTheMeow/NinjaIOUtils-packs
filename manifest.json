@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21T04:48:26.648Z",
+  "updated": "2026-10-22T06:52:41.441Z",
   "packs": [
     {
       "id": "AllWhite",
@@ -8,7 +8,7 @@
       "description": "Makes all the textures white!",
       "hasCombined": true,
       "hasSeamless": true,
-      "hash": "ef5d72f46c7b9f941b310197b6234407c9a1abae9c1b88213eb64b6231412645",
+      "hash": "99a3ffd11b9337aded0cbddc8b0116b927f458bd2d675d65d6282b25b91fe704",
       "zip": "packs/AllWhite.zip"
     },
     {
@@ -18,7 +18,7 @@
       "description": "Come to mama!",
       "hasCombined": true,
       "hasSeamless": false,
-      "hash": "7077352c808b568604d940aae493ec3b26fdeb57b92c1c68c5f9701f192fd333",
+      "hash": "9cd2a20232ec9bfac54616e05219af1bd87976035e867754232e40bdc330fba0",
       "zip": "packs/AnnasKiss.zip"
     },
     {
@@ -28,7 +28,7 @@
       "description": "Washed in blood",
       "hasCombined": true,
       "hasSeamless": true,
-      "hash": "65314fc8b7e4d0c865fb1e9a7a5f08fb9c8e8e6dfad8aa419437b5562f532305",
+      "hash": "b4528ddd19e894188a0eb8776d668c697df6e8dfc35b6b2741641dc436dcc89c",
       "zip": "packs/Bloodlust.zip"
     },
     {
@@ -38,7 +38,7 @@
       "description": "All throwables are red. Shotgun pellets are red. Muzzle flash is removed.",
       "hasCombined": true,
       "hasSeamless": false,
-      "hash": "81cc563c0d4425490e10bea9d956a0d1a960740b1a762cc53908ab211d475b35",
+      "hash": "5c199dc5b3b3f962e1f5d151e9edf55ce4b1a3a66878e0a422a21ab27bfcecb1",
       "zip": "packs/EliteVV1.zip"
     },
     {
@@ -48,7 +48,7 @@
       "description": "Gives a nice sunset based theme.",
       "hasCombined": true,
       "hasSeamless": false,
-      "hash": "1718e97f054e5ab48a7a2e76cbcc9138dbe3a0ca66ffddbf8881c9a829bf2474",
+      "hash": "d351f3f152029304a69cadba21de015d59016b3656c4d2f0ece429344d3f1324",
       "zip": "packs/FinalSunset.zip"
     },
     {
@@ -58,7 +58,7 @@
       "description": "added green weapons to the game",
       "hasCombined": true,
       "hasSeamless": false,
-      "hash": "03797f7fb7ccbb20f9d8f05842d6fc904e6d2eee0ce0eeb00c311da676d42472",
+      "hash": "e4dd82d3d55a15a844782177568cdd631733ce4ebb96a22d000b9299eaad4200",
       "zip": "packs/greenpack.zip"
     },
     {
@@ -68,7 +68,7 @@
       "description": "hey, where'd the game go?",
       "hasCombined": true,
       "hasSeamless": true,
-      "hash": "6b9dbbdd4fbcb682e3effd392eb5f79d92c310bcf890cc050f7aad977aca8205",
+      "hash": "94042d1f069edd467574e984249dc1e1054635a7a571a58d989d210877379b11",
       "zip": "packs/Invisible.zip"
     },
     {
@@ -78,7 +78,7 @@
       "description": "Makes some guns red",
       "hasCombined": true,
       "hasSeamless": false,
-      "hash": "ab8da21c7dc45322909ff6ea6c0c4754f2235b8b5f8f5f91b443f55135ae62a4",
+      "hash": "484d21b1eb252f0a9721b86d107f8249a8b48e10d4446e86af77dc0143185d34",
       "zip": "packs/JustARedPack.zip"
     },
     {
@@ -88,7 +88,7 @@
       "description": "This is [SC]Karma's pink terror texture pack. Pink is a deadly color!",
       "hasCombined": true,
       "hasSeamless": false,
-      "hash": "be6218361090d645e1aed9ada0afa64acdfd9d11efede0b61f7cfdd4e2ad2ff8",
+      "hash": "c746b5f665001f9533d82b440c473aafdc7ce38e94f0c3bcc4cdafda2c4940a6",
       "zip": "packs/KarmasPinkTerror.zip"
     },
     {
@@ -98,7 +98,7 @@
       "description": "changes weapons n stuff",
       "hasCombined": true,
       "hasSeamless": false,
-      "hash": "ea783e0ba55409ac24eca8ddedc79938c929adb50cf7bdaa2195f0a7db86adf0",
+      "hash": "46148a71f616b489eb242978acf2119f56f45d82701bbc1f901e3ee4c3b36b41",
       "zip": "packs/LemonsCustomPack.zip"
     },
     {
@@ -108,8 +108,18 @@
       "description": "pati is love, pati is life.",
       "hasCombined": true,
       "hasSeamless": true,
-      "hash": "574ce65e7cf94d749aea60a9fee5c69afab440d890b0a70121250ae566d1c00e",
+      "hash": "01ccd435ada6f4c73f6926c36e105620bdb479587e5106e36d9edf6a46b14056",
       "zip": "packs/PatiLove.zip"
+    },
+    {
+      "id": "NinjaIO2022",
+      "name": "Ninja.io 2022",
+      "author": "Meow",
+      "description": "The original textures from the 2022 version of ninja.io",
+      "hasCombined": true,
+      "hasSeamless": true,
+      "hash": "594f50659d893a7e7fd831705494bcac223a08ed33fcaff0296571559d6f38a0",
+      "zip": "packs/NinjaIO2022.zip"
     },
     {
       "id": "Original",
@@ -118,7 +128,7 @@
       "description": "Reverts back to the textures before the 0.3.2 version.",
       "hasCombined": true,
       "hasSeamless": false,
-      "hash": "3e3eb07f98f4493882a1c6370971269530a482dcbf543bbafbb0379731790239",
+      "hash": "4eb690a3b478181b83e3d599e11fa35abc93fd58decfd52bf24feaf287986d8d",
       "zip": "packs/Original.zip"
     },
     {
@@ -128,7 +138,7 @@
       "description": "Uses simple solid colors.",
       "hasCombined": false,
       "hasSeamless": true,
-      "hash": "fbcbf2b41e1eea88bbbd0a39a3df3049088d34278097b13c497876010e5c8e60",
+      "hash": "fd09a42d3462ff842b756bd2a6ecae4d367e1f18732d92cc723c6125af6cb23a",
       "zip": "packs/Plastic.zip"
     },
     {
@@ -138,7 +148,7 @@
       "description": "Oooo la la - scribbles",
       "hasCombined": true,
       "hasSeamless": false,
-      "hash": "1746933efc1b4640941fad6828dc3345c2c140eeff3bae4ff59e352efcc5ef97",
+      "hash": "148ade46609ad7472a2dcadb4683ac189da0af6712fb68e45215afe6b3af32ee",
       "zip": "packs/Scribble.zip"
     },
     {
@@ -148,7 +158,7 @@
       "description": "A texture pack for the shadefall project",
       "hasCombined": true,
       "hasSeamless": false,
-      "hash": "4a8cb6734df78b9dae7d2b37e83884f14a3d5472079e96fb7ccb9ba292e03e7f",
+      "hash": "2c17c52a58d0acc5ce455068125bc1750c62c7e803eff6859c7c99961569c195",
       "zip": "packs/Shadefall.zip"
     },
     {
@@ -158,7 +168,7 @@
       "description": "Uses Soldat textures from OpenSoldat.",
       "hasCombined": true,
       "hasSeamless": true,
-      "hash": "671efc64499ca6823450eddd79d2e52ee33220f196bd0563a8f899dd0e3ba639",
+      "hash": "b841491aebecb890c1ce53a9f2a5440b729783c301e93cbdb7fc32d9cc7a4709",
       "zip": "packs/Soldat.zip"
     },
     {
@@ -168,7 +178,7 @@
       "description": "Changes the weaponry into cosmic guns!",
       "hasCombined": true,
       "hasSeamless": false,
-      "hash": "a5df042610133492174866fc01ed953e9db5676390f8c42c6a8e5da84527d8be",
+      "hash": "1f456c39b6d674c008d450b3ac1f8f8daa9a19692479f878972e302ee1420f6a",
       "zip": "packs/StarWars.zip"
     },
     {
@@ -178,7 +188,7 @@
       "description": "Comet Tsuchinshan-ATLAS",
       "hasCombined": true,
       "hasSeamless": false,
-      "hash": "8e630c19cd75c686ca88576615b969dc7c4a967f70210afc0cbf24c789aae22e",
+      "hash": "f3cc567296dff1f636996c95836e874dfccbc6815b25015f487cb709eaee3633",
       "zip": "packs/cometBarrett.zip"
     },
     {
@@ -188,7 +198,7 @@
       "description": "v0.3, bugs are definitely there and im working on it",
       "hasCombined": true,
       "hasSeamless": true,
-      "hash": "5e44c703e6c2b7d7ca5ae736ec2046498ba3b62b23b22f27680cd54c84027872",
+      "hash": "f211030a7f34b719698a3988afd983c6ae205d86bc24c365e33decc8170b79d9",
       "zip": "packs/Terraria.zip"
     },
     {
@@ -198,7 +208,7 @@
       "description": "Makes the red vignette that shows up when you die more transparent.",
       "hasCombined": true,
       "hasSeamless": false,
-      "hash": "bf511c9cfab756b1a8ad32b666b4c46dedcdc57f974f2016238ebe9e5a99ac24",
+      "hash": "0ea990f2a6ff37e226b28a45aca8507100a6383e133c158dbdfe11fa4ce6cf8f",
       "zip": "packs/TransparentVignette.zip"
     },
     {
@@ -208,7 +218,7 @@
       "description": "Chains & Roses.",
       "hasCombined": true,
       "hasSeamless": true,
-      "hash": "afdfad0be85ea75012f3a7a2ae641979fbef6879344b49c3381e16f6fcd976af",
+      "hash": "b864a21909caa61fec6747f4e44fea9eccabab11e3e8d1dd5e81a3618215beaf",
       "zip": "packs/UnchainedRage.zip"
     }
   ]
