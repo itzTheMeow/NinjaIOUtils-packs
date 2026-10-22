@@ -2,7 +2,7 @@ import AdmZip from "adm-zip";
 import crypto from "crypto";
 import fs from "fs";
 import path from "path";
-import { execSync } from "child_process";
+import { execFileSync, execSync } from "child_process";
 
 const SOURCE_REPO = process.env.SOURCE_REPO || "itzTheMeow/NinjaIOUtils";
 const UPSTREAM = "upstream";
@@ -17,8 +17,15 @@ function cleanup() {
 }
 
 cleanup();
-// clone upstream repo
-$(`git clone --depth 1 https://github.com/${SOURCE_REPO} ${UPSTREAM}`);
+// clone upstream repo with full history but no old file blobs
+$(
+  `git clone --filter=blob:none --single-branch https://github.com/${SOURCE_REPO} ${UPSTREAM}`,
+);
+// upstream HEAD commit time, used as fallback for pack entry mtimes
+const commitTime = new Date(
+  Number(execSync(`git -C ${UPSTREAM} log -1 --format=%ct`).toString().trim()) *
+    1000,
+);
 
 const sourceDir = path.join(UPSTREAM, "texturepacks");
 if (!fs.existsSync(sourceDir))
@@ -60,9 +67,27 @@ for (const id of entries) {
     continue;
   }
 
+  // last commit that changed this pack, used as its entry mtimes
+  const logged = execFileSync(
+    "git",
+    [
+      "-C",
+      UPSTREAM,
+      "log",
+      "-1",
+      "--format=%ct",
+      "--",
+      path.join("texturepacks", id),
+    ],
+    { encoding: "utf8" },
+  ).trim();
+  const mtime = logged ? new Date(Number(logged) * 1000) : commitTime;
+
   // create a zip file for the pack
   const zip = new AdmZip();
   for (const file of files) zip.addLocalFile(path.join(dir, file), "", file);
+  // normalize entry mtimes so the zip only changes when this pack changes
+  for (const entry of zip.getEntries()) entry.header.time = mtime;
   const buffer = zip.toBuffer();
   // also hash the zip for version control
   const hash = crypto.createHash("sha256").update(buffer).digest("hex");
@@ -92,16 +117,39 @@ for (const file of fs.readdirSync("packs")) {
   }
 }
 
+// detect real changes against the previous manifest
+let prevUpdated = null;
+const prevPacks = new Map();
+try {
+  const prev = JSON.parse(fs.readFileSync("manifest.json", "utf8"));
+  prevUpdated = prev.updated ?? null;
+  for (const p of prev.packs || []) prevPacks.set(p.id, p);
+} catch {
+  // no previous manifest
+}
+const changed =
+  !prevUpdated ||
+  manifest.some(
+    (p) =>
+      !prevPacks.has(p.id) ||
+      JSON.stringify(prevPacks.get(p.id)) !== JSON.stringify(p),
+  );
+
 // sort/write manifest
 manifest.sort((a, b) =>
   a.name.toLowerCase().localeCompare(b.name.toLowerCase()),
 );
-fs.writeFileSync(
-  "manifest.json",
-  JSON.stringify(
-    { updated: new Date().toISOString(), packs: manifest },
-    null,
-    2,
-  ) + "\n",
-);
+if (changed) {
+  fs.writeFileSync(
+    "manifest.json",
+    JSON.stringify(
+      { updated: new Date().toISOString(), packs: manifest },
+      null,
+      2,
+    ) + "\n",
+  );
+  console.log("packs changed, updated manifest");
+} else {
+  console.log("no changes, manifest untouched");
+}
 console.log(`completed: ${manifest.length} packs`);
